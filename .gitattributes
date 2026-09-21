@@ -1,0 +1,202 @@
+# LFS 规则：不到 100MB 的文件一律不走 LFS。
+# ≥100MB 的具体文件由下面的 HistoryJanus lfs 托管块逐条列出，其余行不得出现 filter=lfs。
+* text=auto
+
+Logo.png -text
+a2-实验1/History/11-Altium-Designer1.~(1).PrjPcb.Zip -text
+a2-实验1/History/PCB.~(1).PcbDoc.Zip -text
+a2-实验1/History/PCB.~(2).PcbDoc.Zip -text
+a2-实验1/History/PCB.~(3).PcbDoc.Zip -text
+a2-实验1/History/Project.~(1).PrjPcb.Zip -text
+a2-实验1/History/SCH.~(1).SchDoc.Zip -text
+a2-实验1/History/SCH.~(2).SchDoc.Zip -text
+a2-实验1/History/SCH.~(3).SchDoc.Zip -text
+a2-实验1/History/SCH.~(4).SchDoc.Zip -text
+a2-实验1/History/SCH.~(5).SchDoc.Zip -text
+a2-实验1/History/SCH.~(6).SchDoc.Zip -text
+a2-实验1/History/SCH.~(7).SchDoc.Zip -text
+a2-实验1/History/SCH.~(8).SchDoc.Zip -text
+a2-实验1/PCB.PcbDoc -text
+a2-实验1/PCBL.PcbLib -text
+a2-实验1/SCH.SchDoc -text
+a2-实验1/SCHL.SchLib -text
+a3-基于STM32的DDS信号源的设计实例/History/a3-基于STM32的DDS信号源的设计实例.~(1).PrjPcb.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/a3-基于STM32的DDS信号源的设计实例.~(2).PrjPcb.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/a3-基于STM32的DDS信号源的设计实例.~(3).PrjPcb.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/a3-基于STM32的DDS信号源的设计实例.~(4).PrjPcb.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(1).PcbDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(1).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(12).PcbDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(13).PcbDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(14).PcbDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(14).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(15).PcbDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(15).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(16).PcbDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(16).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(17).PcbDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(17).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(18).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(19).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(2).PcbDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(2).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(20).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(21).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(22).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(23).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(24).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(25).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(26).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(27).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(28).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(29).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(3).PcbDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(3).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(30).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(31).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(32).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(33).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(34).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(35).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(36).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(37).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(38).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(39).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(4).PcbDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(4).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(40).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(41).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(42).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(43).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(44).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(45).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(46).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(47).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(48).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(49).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(5).PcbDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(5).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(50).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(51).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(52).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(53).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(54).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(55).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(56).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(57).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(58).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(59).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(6).PcbDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(6).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(60).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(7).PcbDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(7).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(8).PcbDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(8).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(9).PcbDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/基于STM32的DDS信号源的设计实例.~(9).SchDoc.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/实验2自建元件库.~(1).SchLib.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/实验2自建元件库.~(10).SchLib.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/实验2自建元件库.~(11).SchLib.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/实验2自建元件库.~(12).SchLib.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/实验2自建元件库.~(13).SchLib.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/实验2自建元件库.~(14).SchLib.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/实验2自建元件库.~(15).SchLib.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/实验2自建元件库.~(16).SchLib.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/实验2自建元件库.~(2).SchLib.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/实验2自建元件库.~(3).SchLib.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/实验2自建元件库.~(4).SchLib.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/实验2自建元件库.~(5).SchLib.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/实验2自建元件库.~(6).SchLib.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/实验2自建元件库.~(7).SchLib.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/实验2自建元件库.~(8).SchLib.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/实验2自建元件库.~(9).SchLib.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/实验2自建封装库.~(1).PcbLib.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/实验2自建封装库.~(2).PcbLib.Zip -text
+a3-基于STM32的DDS信号源的设计实例/History/实验2自建封装库.~(3).PcbLib.Zip -text
+a3-基于STM32的DDS信号源的设计实例/基于STM32的DDS信号源的设计实例.PcbDoc -text
+a3-基于STM32的DDS信号源的设计实例/基于STM32的DDS信号源的设计实例.SchDoc -text
+a3-基于STM32的DDS信号源的设计实例/基于STM32的DDS信号源设计实例.IntLib -text
+a3-基于STM32的DDS信号源的设计实例/基于STM32的DDS信号源设计实例.PcbLib -text
+a3-基于STM32的DDS信号源的设计实例/基于STM32的DDS信号源设计实例.SCHLIB -text
+a3-基于STM32的DDS信号源的设计实例/实验2自建元件库.SchLib -text
+a3-基于STM32的DDS信号源的设计实例/实验2自建封装库.PcbLib -text
+b-References/佳艺分享——实验课库补充/History/封装库.~(1).PcbLib.Zip -text
+b-References/佳艺分享——实验课库补充/SMA.SchLib -text
+b-References/佳艺分享——实验课库补充/封装库.PcbLib -text
+b-References/实验1/s1-AD20-实验1.doc -text
+b-References/实验2-6/s2-AD20-实验2.doc -text
+b-References/实验2-6/s2-基于STM32的DDS信号源设计实例.IntLib -text
+b-References/实验2-6/s2-基于STM32的DDS信号源设计实例.PcbLib -text
+b-References/实验2-6/s2-基于STM32的DDS信号源设计实例.SCHLIB -text
+b-References/实验2-6/s3-AD20-实验3.doc -text
+b-References/实验2-6/s4-AD20-实验4.doc -text
+b-References/实验2-6/s5-AD20-实验5.doc -text
+b-References/实验2-6/s6-AD20-实验6.doc -text
+b-References/实验2-6/~$-AD20-实验2.doc -text
+b-References/实验A1/8路抢答器电路设计.PcbLib -text
+b-References/实验A1/8路抢答器电路设计.SCHLIB -text
+"b-References/实验A1/A1 8路抢答器设计.pdf" -text
+"b-References/实验A2/A2 电子幸运转盘设计.pdf" -text
+b-References/实验A2/电子幸运转盘电路设计.PcbLib -text
+b-References/实验A2/电子幸运转盘电路设计.SCHLIB -text
+"b-References/实验A3/A3 TDA2030双声道功放电路设计.pdf" -text
+b-References/实验A3/TDA2030双声道功放电路设计.PcbLib -text
+b-References/实验A3/TDA2030双声道功放电路设计.SCHLIB -text
+"b-References/实验A4/A4 复合管OTL音频功放电路设计.pdf" -text
+b-References/实验A4/复合管OTL音频功放电路设计.PcbLib -text
+b-References/实验A4/复合管OTL音频功放电路设计.SCHLIB -text
+"b-References/实验A5/A5 红外感应开关电路设计.pdf" -text
+b-References/实验A5/History/红外感应开关电路设计.~(1).PcbLib.Zip -text
+b-References/实验A5/History/红外感应开关电路设计.~(1).SCHLIB.Zip -text
+b-References/实验A5/红外感应开关电路设计.PcbLib -text
+b-References/实验A5/红外感应开关电路设计.SCHLIB -text
+"b-References/实验B1/B1 光控开关电路设计.pdf" -text
+b-References/实验B1/History/光控开关电路设计.~(1).PcbLib.Zip -text
+b-References/实验B1/光控开关电路设计.PcbLib -text
+b-References/实验B1/光控开关电路设计.SCHLIB -text
+"b-References/实验B2/B2 拍手开关电路设计.pdf" -text
+b-References/实验B2/拍手开关电路设计.PcbLib -text
+b-References/实验B2/拍手开关电路设计.SCHLIB -text
+"b-References/实验B3/B3 三人表决器电路设计.pdf" -text
+b-References/实验B3/三人表决器电路设计.PcbLib -text
+b-References/实验B3/三人表决器电路设计.SCHLIB -text
+"b-References/实验B4/B4 双声道集成功放电路设计.pdf" -text
+b-References/实验B4/双声道集成功放电路设计.PcbLib -text
+b-References/实验B4/双声道集成功放电路设计.SCHLIB -text
+"b-References/实验B5/B5 正弦波振荡电路设计.pdf" -text
+b-References/实验B5/正弦波振荡器电路设计.PcbLib -text
+b-References/实验B5/正弦波振荡器电路设计.SCHLIB -text
+b-References/实验C1/5到12V升压电路设计.PcbLib -text
+b-References/实验C1/5到12V升压电路设计.SCHLIB -text
+"b-References/实验C1/C1 5V至12V升压电路设计.pdf" -text
+"b-References/实验C2/C2 变音门铃电路设计.pdf" -text
+b-References/实验C2/变音门铃电路设计.PcbLib -text
+b-References/实验C2/变音门铃电路设计.SCHLIB -text
+"b-References/实验C3/C3 单管放大器电路设计.pdf" -text
+b-References/实验C3/单管放大器电路设计.PcbLib -text
+b-References/实验C3/单管放大器电路设计.SCHLIB -text
+"b-References/实验C4/C4 声控LED旋律灯电路设计.pdf" -text
+b-References/实验C4/声控LED旋律灯电路设计.PcbLib -text
+b-References/实验C4/声控LED旋律灯电路设计.SCHLIB -text
+"b-References/实验C5/C5 呼吸灯电路设计.pdf" -text
+b-References/实验C5/呼吸灯电路设计.PcbLib -text
+b-References/实验C5/呼吸灯电路设计.SCHLIB -text
+z-AD库文件汇总/History/Mylib.~(1).PcbLib.Zip -text
+z-AD库文件汇总/History/Mylib.~(1).SchLib.Zip -text
+z-AD库文件汇总/History/Mylib.~(2).PcbLib.Zip -text
+z-AD库文件汇总/History/Mylib.~(2).SchLib.Zip -text
+z-AD库文件汇总/History/Mylib.~(3).SchLib.Zip -text
+z-AD库文件汇总/History/Mylib.~(4).SchLib.Zip -text
+z-AD库文件汇总/History/Mylib.~(5).SchLib.Zip -text
+z-AD库文件汇总/History/Mylib.~(6).SchLib.Zip -text
+z-AD库文件汇总/History/Mylib.~(7).SchLib.Zip -text
+"z-AD库文件汇总/Miscellaneous Connectors.IntLib" -text
+"z-AD库文件汇总/Miscellaneous Devices.IntLib" -text
+"z-AD库文件汇总/Miscellaneous Devices/Miscellaneous Devices.PcbLib" -text
+"z-AD库文件汇总/Miscellaneous Devices/Miscellaneous Devices.SchLib" -text
+z-AD库文件汇总/Mylib.PcbLib -text
+z-AD库文件汇总/Mylib.SchLib -text
+"z-AD库文件汇总/放大器/Components - 24.06.26 - 16.19.IntLib" -text
+"z-AD库文件汇总/放大器/Components - 24.06.26 - 16.19.PcbLib" -text
+"z-AD库文件汇总/放大器/Components - 24.06.26 - 16.19.SchLib" -text
